@@ -1,0 +1,7 @@
+#!/bin/bash
+#PBS -N EjecucionPablo
+#PBS -o /home/programacion2/computacion_cientifica/pablo/hyperspectral_band_selection_clustering/salida.out
+#PBS -e /home/programacion2/computacion_cientifica/pablo/hyperspectral_band_selection_clustering/error.err
+#PBS -l walltime=10:00:00
+
+python3 /home/programacion2/computacion_cientifica/pablo/hyperspectral_band_selection_clustering/Hedjam_Cheriet_2012.py
